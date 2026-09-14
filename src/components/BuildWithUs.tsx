@@ -22,7 +22,7 @@ export default function BuildWithUs() {
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden flex items-center justify-end">
         <div className="relative w-[850px] h-[480px] lg:w-[1150px] lg:h-[620px] translate-x-[10%] lg:translate-x-[2%] opacity-85 transition-opacity duration-500 hover:opacity-100">
           <Image
-            src="/images/gigabase_vector_blueprint.avif"
+            src="/images/gigabase_vector_blueprint_blue.png"
             alt="GigaBase Modular Infrastructure Isometric Blueprint"
             fill
             sizes="100vw"
