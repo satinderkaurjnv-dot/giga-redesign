@@ -26,7 +26,7 @@ export default function BuildWithUs() {
             alt="GigaBase Modular Infrastructure Isometric Blueprint"
             fill
             sizes="100vw"
-            className="object-contain object-right brightness-[2.3] contrast-[1.15]"
+            className="object-contain object-right brightness-[1.5] contrast-[1.08]"
             priority
           />
         </div>
