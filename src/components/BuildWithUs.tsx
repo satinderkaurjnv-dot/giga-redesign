@@ -36,9 +36,9 @@ export default function BuildWithUs() {
       <div className="absolute inset-0 bg-gradient-to-r from-[#04070f] via-[#04070f]/80 to-transparent z-[1] pointer-events-none w-full lg:w-[48%]" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#04070f] via-transparent to-[#04070f]/40 z-[1] pointer-events-none" />
 
-      {/* Subtle Warm Orange Backlight to softly illuminate the Blueprint lines */}
-      <div className="absolute top-1/2 right-[-50px] -translate-y-1/2 w-[550px] h-[350px] bg-[#ff5500]/[0.10] rounded-full blur-[110px] pointer-events-none z-0" />
-      <div className="absolute top-1/3 left-[-80px] w-[400px] h-[350px] bg-[#ff5500]/[0.06] rounded-full blur-[120px] pointer-events-none z-0" />
+      {/* Subtle Cyan / Blue Backlight to softly illuminate the Blueprint lines */}
+      <div className="absolute top-1/2 right-[-50px] -translate-y-1/2 w-[550px] h-[350px] bg-[#0077ff]/[0.12] rounded-full blur-[110px] pointer-events-none z-0" />
+      <div className="absolute top-1/3 left-[-80px] w-[400px] h-[350px] bg-[#3daeff]/[0.08] rounded-full blur-[120px] pointer-events-none z-0" />
 
       {/* ============================================================ */}
       {/* CONTENT LAYER                                                */}
@@ -46,9 +46,9 @@ export default function BuildWithUs() {
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="max-w-2xl">
           {/* Eyebrow */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#ff5500]/30 bg-[#ff5500]/10 mb-3.5 backdrop-blur-md">
-            <span className="w-2 h-2 rounded-full bg-[#ff5500] animate-pulse" />
-            <span className="text-[10px] font-mono font-bold tracking-[0.25em] text-[#ff5500] uppercase">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#3daeff]/30 bg-[#3daeff]/10 mb-3.5 backdrop-blur-md">
+            <span className="w-2 h-2 rounded-full bg-[#3daeff] animate-pulse" />
+            <span className="text-[10px] font-mono font-bold tracking-[0.25em] text-[#3daeff] uppercase">
               TALK TO SALES
             </span>
           </div>
@@ -71,14 +71,14 @@ export default function BuildWithUs() {
               rel="noopener noreferrer"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
-              className="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-white text-[#111315] font-mono text-xs font-black uppercase tracking-widest transition-all duration-300 shadow-[0_10px_30px_rgba(255,255,255,0.12)] hover:bg-[#ff5500] hover:text-white hover:shadow-[0_10px_40px_rgba(255,85,0,0.35)] hover:-translate-y-0.5 active:translate-y-0"
+              className="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-white text-[#111315] font-mono text-xs font-black uppercase tracking-widest transition-all duration-300 shadow-[0_10px_30px_rgba(255,255,255,0.12)] hover:bg-[#3daeff] hover:text-[#02050c] hover:shadow-[0_10px_40px_rgba(61,174,255,0.35)] hover:-translate-y-0.5 active:translate-y-0"
             >
               <span>CONTACT SALES</span>
               <ArrowRight className={`w-4 h-4 transition-transform duration-300 ${isHovered ? "translate-x-1" : ""}`} />
             </a>
 
             <div className="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.08] backdrop-blur-md text-xs font-mono text-white/60">
-              <MapPin className="w-3.5 h-3.5 text-[#ff5500]" />
+              <MapPin className="w-3.5 h-3.5 text-[#3daeff]" />
               <span>INNOVATION HUB: ALAMEDA, CA</span>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function BuildWithUs() {
             </div>
             <div className="col-span-2 sm:col-span-1">
               <span className="text-white/40 block mb-0.5">INFRASTRUCTURE</span>
-              <span className="font-bold text-[#ff5500] tracking-wide">9MW MODULAR BLOCKS</span>
+              <span className="font-bold text-[#3daeff] tracking-wide">9MW MODULAR BLOCKS</span>
             </div>
           </div>
         </div>
